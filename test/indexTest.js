@@ -12,7 +12,7 @@ describe('Fix the Scope', function() {
       upperCaseCustomerName();
 
       expect(window.customerName).to.equal('BOB');
-    });
+    }); 
   });
   describe('setBestCustomer()', function() {
     it('setBestCustomer', function() {
